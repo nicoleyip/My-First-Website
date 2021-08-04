@@ -21,7 +21,6 @@
 }
 
 .profile {
-  width: 35%;
   padding: 70px 0;
   margin: 0 auto;
 }
@@ -85,17 +84,22 @@ hr {
 
 .top-cloud {
   position: absolute;
-  right: 300px;
+  right: 20%;
   top: 50px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 20%;
 }
 
 .my-portrait {
-  width: 35%;   /* means the percentage of the whole page/parent element */
+  width: 200px;   /* means the percentage of the whole page/parent element */
+}
+
+.intro {
+  width: 35%;
+  margin: auto;
 }
 
 .webpage {
