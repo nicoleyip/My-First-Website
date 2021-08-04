@@ -1,0 +1,159 @@
+.top-container {
+  background-color: #E8F6EF;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container {
+  background-color: #E4FBFF;
+}
+
+.bottom-container {
+  background-color: #8FC0A9;
+  padding: 40px ;
+  line-height: 2;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto;
+  text-align: left;
+}
+
+.profile {
+  width: 35%;
+  padding: 70px 0;
+  margin: 0 auto;
+}
+
+.skills {
+  padding: 60px 0;
+}
+
+.contact-me {
+  width: 30%;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+  color: #66BFBF;
+  margin-top: 0 auto 0 auto;
+  font-family: 'WindSong', cursive;
+  font-size: 5rem;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Amiri', serif;
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Amiri', serif;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  margin: 20px;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+p {
+  line-height: 2;
+  margin: 0;
+}
+
+hr {
+  border: dotted #3B5249 10px;
+  border-bottom-style: none;
+  width: 6%;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+}
+
+.my-portrait {
+  width: 35%;   /* means the percentage of the whole page/parent element */
+}
+
+.webpage {
+  width: 25%;
+  float: left;   /* makes the text wrap around it(on the right), and clear property can clear this layout. */
+  margin-right: 30px;
+}
+
+.photography {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact {
+  width: 40%;
+}
+
+.copyright {
+  color: #EAF6F6;
+  padding-top: 30px;
+  font-size: 0.75rem;
+}
+
+.BUTTON {
+   background: #8FC0A9;
+   background-image: -webkit-linear-gradient(top, #8FC0A9, #88BBA3);
+   background-image: -moz-linear-gradient(top, #8FC0A9, #88BBA3);
+   background-image: -ms-linear-gradient(top, #8FC0A9, #88BBA3);
+   background-image: -o-linear-gradient(top, #8FC0A9, #88BBA3);
+   background-image: -webkit-gradient(to bottom, #8FC0A9, #88BBA3);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: 'Quicksand', sans-serif;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 10px 20px;
+   text-shadow: 1px 1px 20px #8FC0A9;
+   border: solid #8FC0A9 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin: 40px;
+}
+
+.BUTTON:hover {
+   border: solid #FFA45B 1px;
+   background: #FFA45B;
+   background-image: -webkit-linear-gradient(top, #FFA45B, #FFA45B);
+   background-image: -moz-linear-gradient(top, #FFA45B, #FFA45B);
+   background-image: -ms-linear-gradient(top, #FFA45B, #FFA45B);
+   background-image: -o-linear-gradient(top, #FFA45B, #FFA45B);
+   background-image: -webkit-gradient(to bottom, #FFA45B, #FFA45B);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   text-decoration: none;
+}
